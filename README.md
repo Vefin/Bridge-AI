@@ -4,7 +4,7 @@ Implemented as a final project for the "Introduction to Aritifical Intelligence"
 
 # Running Instructions
 * Create a `virtualenv` with `python3.7` - `virtualenv -p python3.7 venv` 
-* Activate virtual environment - `source venv/bin/activate.csh` if using `tcsh`;  if using `bash`, use `source venv/bin/activate`
+* Activate virtual environment - `source venv/scripts/activate.csh` if using `tcsh`;  if using `bash`, use `source venv/bin/activate`
 * `pip install -r requirements.txt` to install project dependencies.
 * To run a match, run `python3.7 match.py --agent1 <agent arguments> --agent2 <agent arguments> --num_games <int> --verbose_mode <0/1>`  where each agent encoding is of the form described in match.py’s documentation.
 * When done, run `deactivate` to deactivate the virtual environment
